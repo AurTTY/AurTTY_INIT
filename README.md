@@ -24,13 +24,13 @@ AurTTY Init is a powerful command-line tool that generates complete, production-
 ### Global Installation (Recommended)
 
 ```bash
-npm install -g @AurTTY/spring-init
+npm install -g @aurtty/spring-init
 ```
 
 ### Local Installation
 
 ```bash
-npm install @AurTTY/spring-init
+npm install @aurtty/spring-init
 ```
 
 ### Requirements

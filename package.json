@@ -1,5 +1,5 @@
 {
-  "name": "@AurTTY/spring-init",
+  "name": "@aurtty/spring-init",
   "version": "0.1.0",
   "description": "Professional API & Fullstack Generator CLI - Create production-ready applications in seconds",
   "main": "dist/cli.js",
