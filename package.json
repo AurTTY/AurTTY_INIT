@@ -1,0 +1,65 @@
+{
+  "name": "@AurTTY/spring-init",
+  "version": "0.1.0",
+  "description": "Professional API & Fullstack Generator CLI - Create production-ready applications in seconds",
+  "main": "dist/cli.js",
+  "bin": {
+    "aurtty": "dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "ts-node src/cli.ts",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"No tests specified yet\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AurTTY/AurTTY_INIT.git"
+  },
+  "homepage": "https://github.com/AurTTY/AurTTY_INIT#readme",
+  "bugs": {
+    "url": "https://github.com/AurTTY/AurTTY_INIT/issues"
+  },
+  "keywords": [
+    "generator",
+    "cli",
+    "typescript",
+    "node",
+    "fullstack",
+    "scaffold",
+    "backend",
+    "frontend",
+    "api",
+    "microservice",
+    "enterprise",
+    "docker",
+    "kubernetes",
+    "cicd"
+  ],
+  "author": "AurTTY - Roberto Carlos",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {
+    "boxen": "^5.1.2",
+    "chalk": "^5.2.0",
+    "commander": "^11.0.0",
+    "fs-extra": "^11.1.1",
+    "gradient-string": "^2.0.2",
+    "inquirer": "^9.0.0",
+    "ora": "^6.1.2",
+    "update-notifier": "^6.0.2"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/inquirer": "^9.0.3",
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.5.0"
+  }
+}
